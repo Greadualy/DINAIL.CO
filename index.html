@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNAIL.CO — Studio Nail Art Profesional Yogyakarta | Manicure & Custom Press-On Nails</title>
+    <meta name="description"
+        content="DNAIL.CO adalah studio nail art profesional di Yogyakarta untuk manicure, custom nail art, dan press-on nails. Dikerjakan oleh 5 tim nailist terlatih. Dipercaya 5.000+ pelanggan." />
+    <meta property="og:title" content="DNAIL.CO — Studio Nail Art Profesional Yogyakarta" />
+    <meta property="og:description"
+        content="Custom gel nail art, manicure, dan press-on nails handmade. Bawa referensi tersulitmu. Kami kerjakan persis, bersih, dan tahan lama." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="top-bar" id="top-bar">
+        <div class="top-bar__inner">
+            <span class="top-bar__text">STUDIO NAIL ART YOGYAKARTA &bull; DIPERCAYA 5.000+ PELANGGAN DALAM 1 TAHUN 8
+                BULAN &bull; SHOPEE: DINAIL.CO</span>
+            <div class="top-bar__links">
+                <a href="https://maps.app.goo.gl/DvvN1yfV7coyBbQa6" target="_blank" rel="noopener"
+                    class="top-bar__link">Maps &#8599;</a>
+                <span class="top-bar__sep">|</span>
+                <a href="https://shopee.co.id/dinail.co" target="_blank" rel="noopener" class="top-bar__link">Shopee
+                    &#8599;</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar__inner">
+            <div class="navbar__brand">
+                <a href="#hero" class="navbar__logo">DNAIL.CO</a>
+                <span class="navbar__sublabel">@dinail.co &bull; YOGYAKARTA</span>
+            </div>
+            <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" onclick="toggleMobileMenu()">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="navbar__menu" id="nav-menu">
+                <li><a href="#layanan" class="navbar__link" onclick="closeMobileMenu()">01. Layanan</a></li>
+                <li><a href="#press-on" class="navbar__link" onclick="closeMobileMenu()">02. Press-On</a></li>
+                <li><a href="#katalog" class="navbar__link" onclick="closeMobileMenu()">03. Katalog</a></li>
+                <li><a href="#estimator" class="navbar__link" onclick="closeMobileMenu()">04. Simulasi Harga</a></li>
+                <li><a href="#lokasi" class="navbar__link" onclick="closeMobileMenu()">05. Maps Studio</a></li>
+            </ul>
+            <a href="#estimator" class="btn btn--primary navbar__cta">Booking Slot WA &#8594;</a>
+        </div>
+    </nav>
+
+    <!-- SECTION 02: HERO -->
+    <section class="hero" id="hero">
+        <div class="hero__grid">
+            <div class="hero__left">
+                <p class="hero__eyebrow mono">[ YOGYAKARTA NAIL ATELIER &bull; @DINAIL.CO ]</p>
+                <h1 class="hero__headline">
+                    Bawa referensi tersulitmu. Kami kerjakan <em>persis</em>, bersih, dan tahan lama.
+                </h1>
+                <p class="hero__sub">
+                    DNAIL.CO adalah studio nail art profesional di Yogyakarta untuk manicure, custom nail art, dan
+                    press-on nails. Dikerjakan oleh 5 tim kru &amp; nailist terlatih&mdash;tanpa kutikula perih, tanpa
+                    gel menggelembung, dan tanpa biaya tambahan kejutan saat di kasir.
+                </p>
+                <div class="hero__ctas">
+                    <a href="#estimator" class="btn btn--gold">Hitung Estimasi &amp; Booking WA</a>
+                    <a href="https://shopee.co.id/dinail.co" target="_blank" rel="noopener"
+                        class="btn btn--outline">Order Press-On via Shopee</a>
+                </div>
+                <div class="hero__metrics">
+                    <div class="metric">
+                        <span class="metric__value mono">5.000+</span>
+                        <span class="metric__label">Pelanggan telah mempercayakan kukunya pada kami</span>
+                    </div>
+                    <div class="metric__divider"></div>
+                    <div class="metric">
+                        <span class="metric__value mono">1 Thn 8 Bln</span>
+                        <span class="metric__label">Konsisten menjaga kualitas &amp; higienitas di Jogja</span>
+                    </div>
+                    <div class="metric__divider"></div>
+                    <div class="metric">
+                        <span class="metric__value mono">5 Kru &amp; Nailist</span>
+                        <span class="metric__label">Tim solid yang fokus pada detail &amp; kenyamananmu</span>
+                    </div>
+                    <div class="metric__divider"></div>
+                    <div class="metric">
+                        <span class="metric__value mono">100% Steril</span>
+                        <span class="metric__label">Alat logam disterilisasi di setiap pergantian klien</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__right">
+                <div class="hero__img-wrap">
+                    <img src="assets/hero_nail_art.jpg"
+                        alt="Glass Cat-Eye dan Chrome nails hasil karya DNAIL.CO Yogyakarta" class="hero__img"
+                        loading="eager" />
+                    <div class="hero__spec-card">
+                        <p class="hero__spec-label mono">ARCHIVED LOOK: GLASS CAT-EYE &amp; CHROME</p>
+                        <p class="hero__spec-social mono">IG: @dinail.co &bull; TIKTOK: @dinail.co_</p>
+                        <a href="https://www.instagram.com/dinail.co" target="_blank" rel="noopener"
+                            class="btn btn--spec">Lihat di Instagram &#8599;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 03: MANIFESTO -->
+    <section class="manifesto" id="manifesto">
+        <div class="manifesto__grid">
+            <div class="manifesto__intro">
+                <p class="section-index mono">01 / KENAPA DNAIL.CO</p>
+                <h2 class="section-heading">Tiga alasan kenapa 5.000+ orang di Jogja pindah ke kursi studio kami.</h2>
+                <p class="section-sub">Kami membangun DNAIL.CO selama 20 bulan terakhir bersama 5 tim pilihan untuk
+                    menghapus trauma salon kuku yang buru-buru.</p>
+            </div>
+            <div class="manifesto__card">
+                <p class="manifesto__card-label mono">MASALAH #01 &mdash; EKSPEKTASI VS REALITA</p>
+                <h3 class="manifesto__card-title">Foto Referensi tidak lagi membuatmu kecewa.</h3>
+                <p class="manifesto__card-body">Pernah minta gambar garis tipis atau gradasi <em>blush</em>, tapi
+                    hasilnya miring dan ketebalan gelnya tidak rata? Nailist kami membedah referensi fotomu di
+                    awal&mdash;mulai dari pencampuran warna dasar (<em>undertone</em> kulit) hingga detail 3D terkecil
+                    sebelum kuas menyentuh kukumu.</p>
+            </div>
+            <div class="manifesto__card">
+                <p class="manifesto__card-label mono">MASALAH #02 &mdash; KEBERSIHAN &amp; RASA NYAMAN</p>
+                <h3 class="manifesto__card-title">Pembersihan kutikula rapi tanpa berdarah.</h3>
+                <p class="manifesto__card-body">Kuku cantik percuma kalau pinggir jari perih saat kena air. Kami
+                    menggunakan teknik <em>prep</em> kutikula yang lembut namun tuntas dengan mata bor (<em>nail
+                        bit</em>) dan gunting kutikula yang melewati proses sterilisasi ketat untuk setiap satu
+                    pelanggan.</p>
+            </div>
+            <div class="manifesto__card">
+                <p class="manifesto__card-label mono">MASALAH #03 &mdash; KETAHANAN &amp; HARGA JUJUR</p>
+                <h3 class="manifesto__card-title">Tidak mengelupas dalam seminggu &amp; harga transparan.</h3>
+                <p class="manifesto__card-body">Gel yang cepat terangkat (<em>lifting</em>) di bagian pangkal biasanya
+                    terjadi karena persiapan permukaan kuku yang asal-asalan. Kami mengunci struktur <em>base gel</em>
+                    dengan presisi agar awet hingga 3&ndash;4 minggu, dengan rincian harga yang disepakati di awal
+                    sebelum pengerjaan dimulai.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 04: SERVICE MENU -->
+    <section class="services" id="layanan">
+        <div class="container">
+            <div class="services__header">
+                <p class="section-index mono">02 / LAYANAN STUDIO &amp; PRODUK</p>
+                <h2 class="section-heading">Perawatan dari pangkal kutikula hingga ujung desain.</h2>
+            </div>
+            <div class="services__table">
+                <div class="service-row">
+                    <div class="service-row__meta">
+                        <span class="service-row__code mono">SRV&mdash;01</span>
+                        <div class="service-row__text">
+                            <h3 class="service-row__name">Clean Manicure &amp; Structured Gel Polish</h3>
+                            <p class="service-row__desc">Perawatan menyeluruh meliputi pembentukan kuku
+                                (<em>shaping</em>), pembersihan kutikula kering yang rapi, perataan permukaan kuku,
+                                aplikasi warna gel pilihan (Polos / Syrup / Cat-Eye / Glitter), hingga nutrisi
+                                <em>cuticle oil</em>.</p>
+                        </div>
+                    </div>
+                    <div class="service-row__right">
+                        <span class="service-row__duration mono">45&ndash;60 MENIT</span>
+                        <span class="service-row__price mono">Mulai Rp 85.000</span>
+                        <button class="btn btn--sm btn--outline" onclick="selectService(0)">Pilih Layanan Ini</button>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <div class="service-row__meta">
+                        <span class="service-row__code mono">SRV&mdash;02</span>
+                        <div class="service-row__text">
+                            <h3 class="service-row__name">Custom Signature Nail Art (Basic hingga Complex 3D)</h3>
+                            <p class="service-row__desc">Dari <em>French tip</em> klasik, <em>aura/blush nails</em>,
+                                <em>chrome mirror</em>, lukis tangan (<em>hand-painted art</em>), hingga aksesoris
+                                <em>charms</em> dan tekstur 3D gel. Bawa desain impianmu sendiri atau konsultasikan
+                                warna yang paling masuk di warna kulit tanganmu.</p>
+                        </div>
+                    </div>
+                    <div class="service-row__right">
+                        <span class="service-row__duration mono">75&ndash;120 MENIT</span>
+                        <span class="service-row__price mono">Mulai Rp 135.000</span>
+                        <button class="btn btn--sm btn--outline" onclick="selectService(2)">Pilih Layanan Ini</button>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <div class="service-row__meta">
+                        <span class="service-row__code mono">SRV&mdash;03</span>
+                        <div class="service-row__text">
+                            <h3 class="service-row__name">Custom Made-to-Measure Press-On Nails</h3>
+                            <p class="service-row__desc">Solusi untuk mahasiswa kesehatan, pekerja kantoran, atau acara
+                                wisuda dan lamaran yang tidak memungkinkan pakai kuku gel permanen setiap hari. Diukur
+                                presisi mengikuti lebar ke-10 jarimu, dibuat <em>handmade</em> dengan gel asli (bukan
+                                plastik tipis pabrikan), lengkap dengan <em>prep kit</em> siap pasang.</p>
+                        </div>
+                    </div>
+                    <div class="service-row__right">
+                        <span class="service-row__duration mono">PRE-ORDER 2&ndash;4 HARI<br>BISA CHECKOUT VIA
+                            SHOPEE</span>
+                        <span class="service-row__price mono">Mulai Rp 110.000 / Set</span>
+                        <button class="btn btn--sm btn--outline" onclick="selectService(4)">Pilih Layanan Ini</button>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <div class="service-row__meta">
+                        <span class="service-row__code mono">SRV&mdash;04</span>
+                        <div class="service-row__text">
+                            <h3 class="service-row__name">Safe Gel Removal &amp; Nail Recovery</h3>
+                            <p class="service-row__desc">Pelepasan gel lama dengan aman tanpa merusak lapisan kuku asli.
+                                Tidak dikelupas paksa yang membuat kuku menjadi tipis dan perih.</p>
+                        </div>
+                    </div>
+                    <div class="service-row__right">
+                        <span class="service-row__duration mono">30 MENIT</span>
+                        <span class="service-row__price mono">Mulai Rp 35.000</span>
+                        <button class="btn btn--sm btn--outline"
+                            onclick="document.getElementById('addon-removal').checked=true;updateEstimate();document.getElementById('estimator').scrollIntoView({behavior:'smooth'})">Pilih
+                            Layanan Ini</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 05: PRESS-ON SPOTLIGHT -->
+    <section class="press-on" id="press-on">
+        <div class="press-on__grid">
+            <div class="press-on__left">
+                <p class="section-index mono" style="color:#C8A86B;">03 / CUSTOM PRESS-ON ATELIER &bull; SHOPEE:
+                    DINAIL.CO</p>
+                <h2 class="press-on__heading">Kuliah atau kerja dilarang pakai kuku panjang? Pakai saat acara, lepas
+                    dalam 5 menit tanpa merusak kuku.</h2>
+                <p class="press-on__body">Kuku palsu pabrikan sering terlihat aneh karena ukurannya kebesaran di pangkal
+                    kutikula dan mudah copot. Press-On Nails DNAIL.CO dilukis manual oleh tim nailist kami menggunakan
+                    100% bahan gel studio dan disesuaikan per milimeter untuk 10 jarimu. Bisa diambil di studio Jogja
+                    atau dikirim ke seluruh Indonesia via Shopee.</p>
+                <div class="press-on__steps">
+                    <div class="press-on__step">
+                        <span class="press-on__step-label mono">LANGKAH 01 &mdash; UKUR DI STUDIO ATAU DARI
+                            RUMAH:</span>
+                        <p>Datang langsung ke studio Jogja untuk diukur oleh tim kami, atau ukur sendiri dari rumah
+                            menggunakan panduan meteran/koin bersama admin WhatsApp kami.</p>
+                    </div>
+                    <div class="press-on__step">
+                        <span class="press-on__step-label mono">LANGKAH 02 &mdash; HANDMADE DENGAN DESAIN BEBAS:</span>
+                        <p>Kami kerjakan bentuk kuku (Almond, Coffin, Oval, Short Square) dan lukis desainnya sesuai
+                            foto referensimu.</p>
+                    </div>
+                    <div class="press-on__step">
+                        <span class="press-on__step-label mono">LANGKAH 03 &mdash; CHECKOUT MUDAH &amp; BISA DIPAKAI
+                            BERULANG:</span>
+                        <p>Dilengkapi <em>sticky gel tab</em> untuk pemakaian 1&ndash;2 hari (kuku bisa disimpan dan
+                            dipakai berulang kali) serta lem cair untuk ketahanan hingga 2 minggu.</p>
+                    </div>
+                </div>
+                <div class="press-on__ctas">
+                    <a href="https://shopee.co.id/dinail.co" target="_blank" rel="noopener" class="btn btn--gold">Beli
+                        via Shopee (dinail.co) &#8599;</a>
+                    <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20ingin%20pesan%20Custom%20Press-On%20Nails"
+                        target="_blank" rel="noopener" class="btn btn--outline-light">Kirim Desain Press-On via WhatsApp
+                        &#8594;</a>
+                </div>
+            </div>
+            <div class="press-on__right">
+                <h3 class="press-on__table-title mono">PANDUAN UKURAN KUKU (mm)</h3>
+                <table class="press-on__table">
+                    <thead>
+                        <tr>
+                            <th>Jari</th>
+                            <th>XS</th>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>L</th>
+                            <th>XL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jempol</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Telunjuk</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Tengah</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Manis</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>Kelingking</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="press-on__toolkit">
+                    <p class="press-on__toolkit-title mono">ISI PAKET TOOLKIT (TIAP PEMBELIAN)</p>
+                    <ul class="press-on__toolkit-list">
+                        <li>&#10022; 10 keping kuku sesuai ukuran jarimu</li>
+                        <li>&#10022; Sticky gel tab (pemakaian 1&ndash;2 hari)</li>
+                        <li>&#10022; Nail glue cair (ketahanan hingga 2 minggu)</li>
+                        <li>&#10022; Mini nail file &amp; cuticle stick</li>
+                        <li>&#10022; Panduan pemasangan &amp; pelepasan aman</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 06: LOOKBOOK -->
+    <section class="lookbook" id="katalog">
+        <div class="container">
+            <div class="lookbook__header">
+                <p class="section-index mono">04 / LOOKBOOK ARCHIVE</p>
+                <h2 class="section-heading">Karya terpilih dari studio kami.</h2>
+            </div>
+            <div class="lookbook__filters">
+                <button class="filter-btn active" onclick="filterLookbook('all',this)">Semua Karya</button>
+                <button class="filter-btn" onclick="filterLookbook('clean',this)">Clean &amp; Syrup</button>
+                <button class="filter-btn" onclick="filterLookbook('chrome',this)">Chrome &amp; Cat-Eye</button>
+                <button class="filter-btn" onclick="filterLookbook('bridal',this)">Wisuda &amp; Bridal</button>
+                <button class="filter-btn" onclick="filterLookbook('3d',this)">3D &amp; Quirky</button>
+            </div>
+            <div class="lookbook__grid" id="lookbook-grid">
+                <div class="lookbook-card" data-category="chrome">
+                    <div class="lookbook-card__img-wrap">
+                        <img src="assets/catalog_blush_chrome.jpg"
+                            alt="Blush Aura + Silver Chrome Star nail art DNAIL.CO" class="lookbook-card__img"
+                            loading="lazy" />
+                        <div class="lookbook-card__overlay">
+                            <p class="lookbook-card__overlay-title">Blush Aura + Silver Chrome Star</p>
+                            <p class="lookbook-card__overlay-meta mono">Chrome &amp; Cat-Eye &bull; 90 Menit</p>
+                            <p class="lookbook-card__overlay-price mono">Est. Rp 155.000</p>
+                            <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Blush%20Aura%20%2B%20Silver%20Chrome%20Star"
+                                target="_blank" rel="noopener" class="btn btn--sm btn--wa-overlay">Tanya Desain Ini via
+                                WA</a>
+                        </div>
+                    </div>
+                    <div class="lookbook-card__info">
+                        <h3 class="lookbook-card__name">Blush Aura + Silver Chrome Star</h3>
+                        <div class="lookbook-card__tags">
+                            <span class="tag mono">Chrome &amp; Cat-Eye</span>
+                            <span class="tag mono">90 Menit</span>
+                            <span class="tag mono">Est. Rp 155.000</span>
+                        </div>
+                        <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Blush%20Aura%20%2B%20Silver%20Chrome%20Star"
+                            target="_blank" rel="noopener" class="lookbook-card__wa mono">Tanya Desain Ini via WA
+                            &#8594;</a>
+                    </div>
+                </div>
+                <div class="lookbook-card" data-category="clean">
+                    <div class="lookbook-card__img-wrap">
+                        <img src="assets/catalog_milky_french.jpg"
+                            alt="Milky Oats dan Micro French Tip nail art DNAIL.CO" class="lookbook-card__img"
+                            loading="lazy" />
+                        <div class="lookbook-card__overlay">
+                            <p class="lookbook-card__overlay-title">Milky Oats &amp; Micro French Tip</p>
+                            <p class="lookbook-card__overlay-meta mono">Clean &amp; Syrup &bull; 60 Menit</p>
+                            <p class="lookbook-card__overlay-price mono">Est. Rp 120.000</p>
+                            <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Milky%20Oats%20%26%20Micro%20French%20Tip"
+                                target="_blank" rel="noopener" class="btn btn--sm btn--wa-overlay">Tanya Desain Ini via
+                                WA</a>
+                        </div>
+                    </div>
+                    <div class="lookbook-card__info">
+                        <h3 class="lookbook-card__name">Milky Oats &amp; Micro French Tip</h3>
+                        <div class="lookbook-card__tags">
+                            <span class="tag mono">Clean &amp; Syrup</span>
+                            <span class="tag mono">60 Menit</span>
+                            <span class="tag mono">Est. Rp 120.000</span>
+                        </div>
+                        <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Milky%20Oats%20%26%20Micro%20French%20Tip"
+                            target="_blank" rel="noopener" class="lookbook-card__wa mono">Tanya Desain Ini via WA
+                            &#8594;</a>
+                    </div>
+                </div>
+                <div class="lookbook-card" data-category="bridal">
+                    <div class="lookbook-card__img-wrap">
+                        <img src="assets/catalog_bridal_pearl.jpg"
+                            alt="Pearl Bridal Lace dan 3D Floral Ribbon nail art DNAIL.CO" class="lookbook-card__img"
+                            loading="lazy" />
+                        <div class="lookbook-card__overlay">
+                            <p class="lookbook-card__overlay-title">Pearl Bridal Lace &amp; 3D Floral Ribbon</p>
+                            <p class="lookbook-card__overlay-meta mono">Wisuda &amp; Bridal &bull; 110 Menit</p>
+                            <p class="lookbook-card__overlay-price mono">Est. Rp 185.000</p>
+                            <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Pearl%20Bridal%20Lace%20%26%203D%20Floral%20Ribbon"
+                                target="_blank" rel="noopener" class="btn btn--sm btn--wa-overlay">Tanya Desain Ini via
+                                WA</a>
+                        </div>
+                    </div>
+                    <div class="lookbook-card__info">
+                        <h3 class="lookbook-card__name">Pearl Bridal Lace &amp; 3D Floral Ribbon</h3>
+                        <div class="lookbook-card__tags">
+                            <span class="tag mono">Wisuda &amp; Bridal</span>
+                            <span class="tag mono">110 Menit</span>
+                            <span class="tag mono">Est. Rp 185.000</span>
+                        </div>
+                        <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Pearl%20Bridal%20Lace%20%26%203D%20Floral%20Ribbon"
+                            target="_blank" rel="noopener" class="lookbook-card__wa mono">Tanya Desain Ini via WA
+                            &#8594;</a>
+                    </div>
+                </div>
+                <div class="lookbook-card" data-category="chrome">
+                    <div class="lookbook-card__img-wrap">
+                        <img src="assets/catalog_cat_eye.jpg" alt="Velvet Magnet Cat-Eye Espresso nail art DNAIL.CO"
+                            class="lookbook-card__img" loading="lazy" />
+                        <div class="lookbook-card__overlay">
+                            <p class="lookbook-card__overlay-title">Velvet Magnet Cat-Eye Espresso</p>
+                            <p class="lookbook-card__overlay-meta mono">Chrome &amp; Cat-Eye &bull; 60 Menit</p>
+                            <p class="lookbook-card__overlay-price mono">Est. Rp 115.000</p>
+                            <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Velvet%20Magnet%20Cat-Eye%20Espresso"
+                                target="_blank" rel="noopener" class="btn btn--sm btn--wa-overlay">Tanya Desain Ini via
+                                WA</a>
+                        </div>
+                    </div>
+                    <div class="lookbook-card__info">
+                        <h3 class="lookbook-card__name">Velvet Magnet Cat-Eye Espresso</h3>
+                        <div class="lookbook-card__tags">
+                            <span class="tag mono">Chrome &amp; Cat-Eye</span>
+                            <span class="tag mono">60 Menit</span>
+                            <span class="tag mono">Est. Rp 115.000</span>
+                        </div>
+                        <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Velvet%20Magnet%20Cat-Eye%20Espresso"
+                            target="_blank" rel="noopener" class="lookbook-card__wa mono">Tanya Desain Ini via WA
+                            &#8594;</a>
+                    </div>
+                </div>
+                <div class="lookbook-card" data-category="bridal">
+                    <div class="lookbook-card__img-wrap">
+                        <img src="assets/catalog_press_on_coquette.jpg"
+                            alt="Custom Press-On Coquette Ribbon Set DNAIL.CO" class="lookbook-card__img"
+                            loading="lazy" />
+                        <div class="lookbook-card__overlay">
+                            <p class="lookbook-card__overlay-title">Custom Press-On: Coquette Ribbon Set</p>
+                            <p class="lookbook-card__overlay-meta mono">Wisuda &amp; Bridal &bull; Shopee: dinail.co</p>
+                            <p class="lookbook-card__overlay-price mono">Est. Rp 145.000</p>
+                            <a href="https://shopee.co.id/dinail.co" target="_blank" rel="noopener"
+                                class="btn btn--sm btn--wa-overlay">Beli di Shopee dinail.co</a>
+                        </div>
+                    </div>
+                    <div class="lookbook-card__info">
+                        <h3 class="lookbook-card__name">Custom Press-On: Coquette Ribbon Set</h3>
+                        <div class="lookbook-card__tags">
+                            <span class="tag mono">Wisuda &amp; Bridal</span>
+                            <span class="tag mono">Shopee: dinail.co</span>
+                            <span class="tag mono">Est. Rp 145.000</span>
+                        </div>
+                        <a href="https://shopee.co.id/dinail.co" target="_blank" rel="noopener"
+                            class="lookbook-card__wa mono">Beli di Shopee dinail.co &#8594;</a>
+                    </div>
+                </div>
+                <div class="lookbook-card" data-category="3d">
+                    <div class="lookbook-card__img-wrap">
+                        <img src="assets/catalog_tortoiseshell.jpg"
+                            alt="Tortoiseshell Amber dan Gold Frame nail art DNAIL.CO" class="lookbook-card__img"
+                            loading="lazy" />
+                        <div class="lookbook-card__overlay">
+                            <p class="lookbook-card__overlay-title">Tortoiseshell Amber &amp; Gold Frame</p>
+                            <p class="lookbook-card__overlay-meta mono">3D &amp; Quirky &bull; 100 Menit</p>
+                            <p class="lookbook-card__overlay-price mono">Est. Rp 165.000</p>
+                            <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Tortoiseshell%20Amber%20%26%20Gold%20Frame"
+                                target="_blank" rel="noopener" class="btn btn--sm btn--wa-overlay">Tanya Desain Ini via
+                                WA</a>
+                        </div>
+                    </div>
+                    <div class="lookbook-card__info">
+                        <h3 class="lookbook-card__name">Tortoiseshell Amber &amp; Gold Frame</h3>
+                        <div class="lookbook-card__tags">
+                            <span class="tag mono">3D &amp; Quirky</span>
+                            <span class="tag mono">100 Menit</span>
+                            <span class="tag mono">Est. Rp 165.000</span>
+                        </div>
+                        <a href="https://wa.me/62882008903525?text=Halo%20DNAIL.CO%2C%20saya%20tertarik%20desain%20Tortoiseshell%20Amber%20%26%20Gold%20Frame"
+                            target="_blank" rel="noopener" class="lookbook-card__wa mono">Tanya Desain Ini via WA
+                            &#8594;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lookbook__archive-bar">
+                <p class="lookbook__archive-text">Lihat update desain harian dan video proses pengerjaan tim kami di
+                    Instagram @dinail.co dan TikTok @dinail.co_</p>
+                <div class="lookbook__archive-links">
+                    <a href="https://www.instagram.com/dinail.co" target="_blank" rel="noopener" class="archive-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                        Instagram @dinail.co
+                    </a>
+                    <a href="https://www.tiktok.com/@dinail.co_" target="_blank" rel="noopener" class="archive-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z" />
+                        </svg>
+                        TikTok @dinail.co_
+                    </a>
+                    <a href="https://www.threads.net/@dinail.co" target="_blank" rel="noopener" class="archive-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.474l-2.073.56c-1.084-4.011-3.874-6.049-8.286-6.081-2.951.02-5.141.96-6.512 2.815-1.253 1.698-1.893 4.109-1.922 7.143.029 3.038.669 5.449 1.922 7.148 1.372 1.855 3.561 2.795 6.516 2.815 2.961-.018 4.966-.814 6.078-2.41.994-1.434 1.441-3.393 1.44-6.115V12.9h-7.51V10.9h9.573v1.95c.002 3.294-.626 5.77-1.918 7.566-1.558 2.25-4.094 3.569-7.451 3.584z" />
+                        </svg>
+                        Threads @dinail.co
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 07: PRICE ESTIMATOR -->
+    <section class="estimator" id="estimator">
+        <div class="container">
+            <div class="estimator__header">
+                <p class="section-index mono">04 / SIMULASI HARGA &amp; RESERVASI WHATSAPP</p>
+                <h2 class="section-heading">Cek estimasi biaya &amp; waktu sebelum kamu datang ke studio.</h2>
+                <p class="section-sub">Tidak perlu sungkan bertanya harga. Pilih layanan yang kamu inginkan di bawah ini
+                    untuk melihat kisaran biaya dan durasi pengerjaan, lalu kirim rinciannya langsung ke WhatsApp
+                    Business kami (+62 882-0089-03525).</p>
+            </div>
+            <div class="estimator__body">
+                <div class="estimator__form">
+                    <div class="form-group">
+                        <label class="form-label mono">TIPE PESANAN</label>
+                        <div class="order-type-btns">
+                            <button class="order-type-btn active" id="type-studio"
+                                onclick="setOrderType('studio',this)">[ Booking Kursi Studio Jogja ]</button>
+                            <button class="order-type-btn" id="type-preorder" onclick="setOrderType('preorder',this)">[
+                                Pre-Order Custom Press-On ]</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label mono">PILIH LAYANAN UTAMA</label>
+                        <div class="service-cards" id="service-cards">
+                            <label class="service-card" id="service-card-0">
+                                <input type="radio" name="service" value="0" checked onchange="updateEstimate()" />
+                                <div class="service-card__inner">
+                                    <span class="service-card__name">Clean Manicure + Gel Polos/Syrup</span>
+                                    <span class="service-card__meta mono">Rp 85.000 &bull; 60 Menit</span>
+                                </div>
+                            </label>
+                            <label class="service-card" id="service-card-1">
+                                <input type="radio" name="service" value="1" onchange="updateEstimate()" />
+                                <div class="service-card__inner">
+                                    <span class="service-card__name">Manicure + Cat Eye / Chrome / French</span>
+                                    <span class="service-card__meta mono">Rp 115.000 &bull; 75 Menit</span>
+                                </div>
+                            </label>
+                            <label class="service-card" id="service-card-2">
+                                <input type="radio" name="service" value="2" onchange="updateEstimate()" />
+                                <div class="service-card__inner">
+                                    <span class="service-card__name">Manicure + Custom Nail Art Medium</span>
+                                    <span class="service-card__meta mono">Rp 145.000 &bull; 90 Menit</span>
+                                </div>
+                            </label>
+                            <label class="service-card" id="service-card-3">
+                                <input type="radio" name="service" value="3" onchange="updateEstimate()" />
+                                <div class="service-card__inner">
+                                    <span class="service-card__name">Manicure + Full Complex Nail Art / Wisuda</span>
+                                    <span class="service-card__meta mono">Rp 180.000 &bull; 120 Menit</span>
+                                </div>
+                            </label>
+                            <label class="service-card" id="service-card-4">
+                                <input type="radio" name="service" value="4" onchange="updateEstimate()" />
+                                <div class="service-card__inner">
+                                    <span class="service-card__name">Custom Press-On Nails Set Lengkap</span>
+                                    <span class="service-card__meta mono">Rp 125.000 &bull; Pre-Order</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label mono">TAMBAHAN / ADD-ONS</label>
+                        <div class="addons">
+                            <label class="addon-item">
+                                <input type="checkbox" id="addon-removal" onchange="updateEstimate()" />
+                                <span class="addon-text">Remove Gel Lama</span>
+                                <span class="addon-price mono">+Rp 35.000 &bull; +25 Menit</span>
+                            </label>
+                            <label class="addon-item">
+                                <input type="checkbox" id="addon-extension" onchange="updateEstimate()" />
+                                <span class="addon-text">Nail Extension / Sambung Kuku</span>
+                                <span class="addon-price mono">+Rp 65.000 &bull; +30 Menit</span>
+                            </label>
+                            <label class="addon-item">
+                                <input type="checkbox" id="addon-vitamin" onchange="updateEstimate()" />
+                                <span class="addon-text">Vitamin &amp; Intensive Cuticle Care</span>
+                                <span class="addon-price mono">+Rp 25.000 &bull; +15 Menit</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label mono" for="customer-name">NAMA PELANGGAN</label>
+                        <input type="text" id="customer-name" class="form-input" placeholder="Nama kamu..."
+                            oninput="updateEstimate()" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label mono" for="customer-schedule">RENCANA HARI &amp; JAM KEDATANGAN</label>
+                        <input type="text" id="customer-schedule" class="form-input"
+                            placeholder="Contoh: Sabtu, 14.00 WIB" oninput="updateEstimate()" />
+                    </div>
+                </div>
+                <div class="estimator__receipt" id="receipt">
+                    <div class="receipt__header">
+                        <p class="receipt__brand mono">DNAIL.CO STUDIO</p>
+                        <p class="receipt__sub mono">@dinail.co &bull; YOGYAKARTA</p>
+                        <div class="receipt__divider"></div>
+                        <p class="receipt__label mono">ESTIMASI STRUK PESANAN</p>
+                    </div>
+                    <div class="receipt__body">
+                        <div class="receipt__row">
+                            <span class="mono" id="receipt-type">Booking Kursi Studio Jogja</span>
+                        </div>
+                        <div class="receipt__divider"></div>
+                        <div class="receipt__row">
+                            <span class="receipt__item-name" id="receipt-service-name">Clean Manicure + Gel
+                                Polos/Syrup</span>
+                            <span class="receipt__item-price mono" id="receipt-service-price">Rp 85.000</span>
+                        </div>
+                        <div id="receipt-addons-list"></div>
+                        <div class="receipt__divider"></div>
+                        <div class="receipt__total-row">
+                            <span class="receipt__total-label mono">ESTIMASI DURASI</span>
+                            <span class="receipt__total-value mono" id="receipt-duration">60 MENIT</span>
+                        </div>
+                        <div class="receipt__total-row receipt__total-row--highlight">
+                            <span class="receipt__total-label mono">TOTAL ESTIMASI</span>
+                            <span class="receipt__total-value mono" id="receipt-total">Rp 85.000</span>
+                        </div>
+                    </div>
+                    <p class="receipt__note mono">*Harga final untuk Custom Nail Art menyesuaikan tingkat kerumitan foto
+                        referensi yang kamu kirimkan ke Admin via WhatsApp.</p>
+                    <button class="btn btn--wa btn--block" onclick="sendToWhatsApp()">Kirim Rincian ke WhatsApp (+62
+                        882-0089-03525) &#8594;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 08: LOKASI & CHANNELS -->
+    <section class="location" id="lokasi">
+        <div class="container">
+            <div class="location__grid">
+                <div class="location__card">
+                    <p class="section-index mono">05 / LOKASI STUDIO</p>
+                    <h2 class="location__heading">Kunjungi Studio DNAIL.CO di Yogyakarta.</h2>
+                    <p class="location__desc">Dikerjakan oleh 5 tim operasional &amp; nailist yang ramah dan teliti.
+                        Klik tombol di bawah untuk membuka titik lokasi tepat studio kami di Google Maps.</p>
+                    <a href="https://maps.app.goo.gl/DvvN1yfV7coyBbQa6" target="_blank" rel="noopener"
+                        class="btn btn--primary location__maps-btn">Buka Lokasi di Google Maps &#8599;</a>
+                </div>
+                <div class="location__channels">
+                    <p class="form-label mono" style="margin-bottom:1.5rem;">KANAL DIGITAL RESMI</p>
+                    <div class="channel-list">
+                        <a href="https://wa.me/62882008903525" target="_blank" rel="noopener" class="channel-item">
+                            <div class="channel-item__icon ch-wa">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="channel-item__label">WhatsApp Business</p>
+                                <p class="channel-item__value mono">+62 882-0089-03525</p>
+                            </div>
+                            <span class="ch-arrow">&#8599;</span>
+                        </a>
+                        <a href="https://www.instagram.com/dinail.co" target="_blank" rel="noopener"
+                            class="channel-item">
+                            <div class="channel-item__icon ch-ig">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="channel-item__label">Instagram &amp; Threads</p>
+                                <p class="channel-item__value mono">@dinail.co</p>
+                            </div>
+                            <span class="ch-arrow">&#8599;</span>
+                        </a>
+                        <a href="https://www.tiktok.com/@dinail.co_" target="_blank" rel="noopener"
+                            class="channel-item">
+                            <div class="channel-item__icon ch-tiktok">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="channel-item__label">TikTok</p>
+                                <p class="channel-item__value mono">@dinail.co_</p>
+                            </div>
+                            <span class="ch-arrow">&#8599;</span>
+                        </a>
+                        <a href="https://shopee.co.id/dinail.co" target="_blank" rel="noopener" class="channel-item">
+                            <div class="channel-item__icon ch-shopee">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M4.5 9.5h15l-1.5 10h-12L4.5 9.5zM9 9.5V7a3 3 0 0 1 6 0v2.5" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="channel-item__label">Shopee Official Store</p>
+                                <p class="channel-item__value mono">dinail.co</p>
+                            </div>
+                            <span class="ch-arrow">&#8599;</span>
+                        </a>
+                        <a href="mailto:varellabdulrozaq17@gmail.com" class="channel-item">
+                            <div class="channel-item__icon ch-email">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="channel-item__label">Email Owner / Partnership</p>
+                                <p class="channel-item__value mono">varellabdulrozaq17@gmail.com</p>
+                            </div>
+                            <span class="ch-arrow">&#8599;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="faq__head">
+                <p class="section-index mono">FAQ</p>
+                <h2 class="section-heading">Pertanyaan yang sering ditanyakan.</h2>
+            </div>
+            <div class="faq__list">
+                <div class="faq__item" id="faq-1">
+                    <button class="faq__question" onclick="toggleFaq('faq-1')">
+                        <span>Apakah boleh membawa foto desain referensi sendiri dari Pinterest atau Instagram?</span>
+                        <span class="faq__icon mono" id="faq-1-icon">+</span>
+                    </button>
+                    <div class="faq__answer" id="faq-1-answer">
+                        <p>Sangat boleh! Justru mayoritas dari 5.000+ pelanggan kami datang membawa foto referensi
+                            sendiri. Kirimkan fotomu melalui WhatsApp ke +62 882-0089-03525 saat booking agar tim kami
+                            bisa langsung menginformasikan ketersediaan warna/aksesoris dan harga pastinya di awal.</p>
+                    </div>
+                </div>
+                <div class="faq__item" id="faq-2">
+                    <button class="faq__question" onclick="toggleFaq('faq-2')">
+                        <span>Berapa lama ketahanan kuku gel di DNAIL.CO?</span>
+                        <span class="faq__icon mono" id="faq-2-icon">+</span>
+                    </button>
+                    <div class="faq__answer" id="faq-2-answer">
+                        <p>Dengan persiapan kutikula dan struktur <em>base gel</em> yang kami terapkan, rata-rata
+                            bertahan 3 hingga 4 minggu tanpa <em>lifting</em> (mengelupas di pangkal), tergantung
+                            aktivitas harian tanganmu.</p>
+                    </div>
+                </div>
+                <div class="faq__item" id="faq-3">
+                    <button class="faq__question" onclick="toggleFaq('faq-3')">
+                        <span>Bagaimana cara pesan Custom Press-On Nails kalau saya sibuk atau di luar kota?</span>
+                        <span class="faq__icon mono" id="faq-3-icon">+</span>
+                    </button>
+                    <div class="faq__answer" id="faq-3-answer">
+                        <p>Kamu bisa konsultasi ukuran jari melalui WhatsApp kami, lalu melakukan pembayaran atau
+                            checkout dengan aman melalui akun Shopee resmi kami di dinail.co.</p>
+                    </div>
+                </div>
+                <div class="faq__item" id="faq-4">
+                    <button class="faq__question" onclick="toggleFaq('faq-4')">
+                        <span>Apakah bisa datang langsung (Walk-in) tanpa booking?</span>
+                        <span class="faq__icon mono" id="faq-4-icon">+</span>
+                    </button>
+                    <div class="faq__answer" id="faq-4-answer">
+                        <p>Meskipun kami memiliki 5 kru operasional, setiap sesi pengerjaan memakan waktu 60&ndash;120
+                            menit demi menjaga kerapian. Kami sangat menyarankan konfirmasi slot terlebih dahulu via
+                            WhatsApp agar kamu langsung dilayani tanpa perlu mengantre.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+        <div class="footer__inner">
+            <div class="footer__top">
+                <div class="footer__wordmark">DNAIL.CO</div>
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/dinail.co" target="_blank" rel="noopener"
+                        class="footer__soc">IG</a>
+                    <a href="https://www.tiktok.com/@dinail.co_" target="_blank" rel="noopener"
+                        class="footer__soc">TT</a>
+                    <a href="https://www.threads.net/@dinail.co" target="_blank" rel="noopener"
+                        class="footer__soc">TH</a>
+                    <a href="https://shopee.co.id/dinail.co" target="_blank" rel="noopener" class="footer__soc">SP</a>
+                    <a href="https://wa.me/62882008903525" target="_blank" rel="noopener" class="footer__soc">WA</a>
+                </div>
+            </div>
+            <div class="footer__divider"></div>
+            <div class="footer__bottom">
+                <p class="footer__tagline">DNAIL CO STUDIO (@dinail.co) &mdash; Presisi di setiap jari, higienis di
+                    setiap sesi.</p>
+                <p class="footer__meta mono">Berdiri sejak 20 bulan lalu di Yogyakarta &bull; Dipercaya oleh 5.000+
+                    Pelanggan &bull; Dikelola oleh 5 Kru Profesional</p>
+                <p class="footer__email mono">Partnership &amp; Owner Inquiry: <a
+                        href="mailto:varellabdulrozaq17@gmail.com"
+                        class="footer__email-link">varellabdulrozaq17@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/62882008903525" target="_blank" rel="noopener" class="floating-wa"
+        aria-label="Chat WhatsApp DNAIL.CO">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

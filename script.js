@@ -153,13 +153,35 @@ function toggleFaq(id) {
 /* ── Mobile Hamburger ── */
 function toggleMobileMenu() {
   const menu = document.getElementById('nav-menu');
-  menu.classList.toggle('is-open');
+  const hamburger = document.getElementById('hamburger');
+  if (!menu) return;
+  const isOpen = menu.classList.toggle('is-open');
+  if (hamburger) {
+    hamburger.classList.toggle('is-active', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }
 }
 
 function closeMobileMenu() {
   const menu = document.getElementById('nav-menu');
-  menu.classList.remove('is-open');
+  const hamburger = document.getElementById('hamburger');
+  if (menu) menu.classList.remove('is-open');
+  if (hamburger) {
+    hamburger.classList.remove('is-active');
+    hamburger.setAttribute('aria-expanded', 'false');
+  }
 }
+
+// Close mobile menu if clicked outside
+document.addEventListener('click', (e) => {
+  const menu = document.getElementById('nav-menu');
+  const hamburger = document.getElementById('hamburger');
+  if (menu && menu.classList.contains('is-open')) {
+    if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+      closeMobileMenu();
+    }
+  }
+});
 
 /* ── Init on DOM Ready ── */
 document.addEventListener('DOMContentLoaded', () => {

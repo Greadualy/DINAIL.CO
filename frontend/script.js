@@ -96,7 +96,7 @@ function sendToWhatsApp() {
   const durationText = svc.isPreorder ? 'Pre-Order 2–4 Hari' : `±${totalDuration} Menit`;
 
   const message =
-`Halo Admin DNAIL.CO (@dinail.co), saya ${name} ingin konfirmasi slot/pesanan:
+`Halo Admin DINAIL.CO (@dinail.co), saya ${name} ingin konfirmasi slot/pesanan:
 
 - Tipe: ${orderType}
 - Layanan: ${svc.name}

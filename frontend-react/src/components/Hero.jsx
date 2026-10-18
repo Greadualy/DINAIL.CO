@@ -55,7 +55,7 @@ export default function Hero() {
             </div>
             <div className="metric__divider"></div>
             <div className="metric">
-              <span className="metric__value mono">20 Bln</span>
+              <span className="metric__value mono">20 Bulan</span>
               <span className="metric__label">Konsisten menjaga kualitas &amp; higienitas di Jogja</span>
             </div>
             <div className="metric__divider"></div>

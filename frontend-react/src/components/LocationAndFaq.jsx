@@ -113,8 +113,13 @@ export default function LocationAndFaq() {
                   className="channel-item"
                 >
                   <div className="channel-item__icon ch-shopee">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M4.5 9.5h15l-1.5 10h-12L4.5 9.5zM9 9.5V7a3 3 0 0 1 6 0v2.5" />
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ee4d2d" stroke-linecap="round" stroke-linejoin="round" id="Brand-Shopee--Streamline-Tabler" height="24" width="24">
+                      <desc>
+                        Brand Shopee Streamline Icon: https://streamlinehq.com
+                      </desc>
+                      <path d="m4 7 0.867 12.143a2 2 0 0 0 2 1.857h10.276a2 2 0 0 0 2 -1.857L20.01 7h-16z" stroke-width="2"></path>
+                      <path d="M8.5 7c0 -1.653 1.5 -4 3.5 -4s3.5 2.347 3.5 4" stroke-width="2"></path>
+                      <path d="M9.5 17c0.413 0.462 1 1 2.5 1s2.5 -0.897 2.5 -2 -1 -1.5 -2.5 -2 -2 -1.47 -2 -2c0 -1.104 1 -2 2 -2s1.5 0 2.5 1" stroke-width="2"></path>
                     </svg>
                   </div>
                   <div>
